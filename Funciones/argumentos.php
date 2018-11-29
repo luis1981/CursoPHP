@@ -50,7 +50,7 @@
 
     $a = "Luis";
     $b = &$a; // Asignamos la direccion en memoria de $a a $b.
-    $b = "Vega"; // Como $b tiene asignado la misma direccion en memoria que $a, si ha $b le cambiamos el valor a $a tambien se le cambiara
+    $b = "Vega"; // Como $b tiene asignado la misma direccion en memoria que $a, si a $b le cambiamos el valor a $a tambien se cambiara.
     echo $b;
     echo $a;
 
