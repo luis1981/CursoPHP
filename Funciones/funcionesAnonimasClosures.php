@@ -75,4 +75,37 @@
 
     coche($marca);
 
-    echo "$coche1";
+    echo "$coche1<BR>";
+
+
+    echo "<h1>Repaso de funciones CLOSURES</h1>";
+    
+    // Closures desde una variable funcion
+
+    // Creamos el closure
+    $a = function(){
+
+        echo "Hola desde la funcion a";
+    };
+
+    // Ejecutamos la variable funcion poniendo unos parentesis despues de la variable.
+
+    $a();
+
+    echo "<br><br>";
+
+    // Closure como parametro de una funcion normal.
+
+    function nombreCompleto($fullName){
+
+        echo $fullName();
+    }
+
+    $fullName =  function () {
+
+        return "Me llamo Hugo Vega Strimbeanu, soy CLOSURE pasado como o";
+    };
+
+
+    nombreCompleto($fullName);
+
