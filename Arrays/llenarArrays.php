@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
     echo "<h1>Estamos en rellenar arrays</h1>";
     
     echo "luis";
@@ -22,6 +21,3 @@
      ?>
 
      
-=======
-    echo "<h1>Estamos en rellenar arrays</h1>";
->>>>>>> a531aeee9b393794baa44e5270c533eb3ceb144e
