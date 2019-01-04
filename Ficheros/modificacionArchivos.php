@@ -71,3 +71,6 @@
 
      $g = file_exists('nuevoDestino.html');
      var_dump($g);
+
+
+     echo file_get_contents('http://www.php.net');
