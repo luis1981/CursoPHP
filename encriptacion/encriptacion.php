@@ -8,7 +8,7 @@
      *  string md5(string $str, [bool $raw_output = false])
      * 
      *  Calcula un hash con el algoritmo md5, si se establece el segundo parametro como "true", devuelve un binario de 16 bits.
-     *  Nos retorna un Hexadecimal de 32 bits.
+     *  Sin el nos retorna un Hexadecimal de 32 bits.
      * 
      */
 
@@ -37,10 +37,12 @@
 
     echo "<br>";
 
-    // FUNCIONES QUE SE UTILIZAR PARA LOS PASSWORDS
+    // FUNCIONES QUE SE UTILIZAR PARA LOS PASSWORDS !! AHORA !!
     /**
-     *  string password_hash(string  $password, int $algo , int $salt)
+     *  string password_hash(string  $password, int , int $salt)
      * 
+     *  bool password_verify(string $str, string $hash)
+     *  Necesitamos el string a comparar con el $hash.  
      * 
      */
 
